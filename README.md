@@ -1,13 +1,13 @@
 # vigilant-octo-meme
 CDC X Yhills OPEN PROJECTS 2025-2026 (Data Science PS)
-# Satellite Imagery-Based Property Valuation 🛰️🏠
+# Satellite Imagery-Based Property Valuation 
 
-## 📌 Project Overview
+##  Project Overview
 This project implements a **Multimodal Machine Learning Pipeline** to predict property prices by combining traditional tabular data (e.g., bedrooms, square footage) with satellite imagery.
 
 Standard real estate models often miss the "curb appeal" or neighborhood density factors that influence price. By processing satellite images using a **Deep Convolutional Neural Network (CNN)** and fusing this visual intelligence with a powerful **Ensemble Regressor**, this solution achieves superior predictive performance compared to tabular-only baselines.
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 ├── data_fetcher.py            # Script to download satellite images via API
@@ -20,7 +20,7 @@ Standard real estate models often miss the "curb appeal" or neighborhood density
 └── 22322030_report.pdf        # Detailed project report
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 ```
 Deep Learning: PyTorch, Torchvision (ResNet18)
 Machine Learning: Scikit-Learn, XGBoost, HistGradientBoosting
@@ -30,7 +30,7 @@ Visualization: Matplotlib, Seaborn
 APIs: Google Maps Static API
 ```
 
-## 🚀 How to Run the Pipeline
+##  How to Run the Pipeline
 Follow these steps in order to reproduce the results.
 
 ### 1. Environment Setup:
@@ -80,7 +80,7 @@ Action: Uses Grad-CAM to visualize heatmaps over satellite images, showing which
 Output: explainability_report.png
 ```
 
-## 🧠 Model Architecture: The solution uses a Late Fusion architecture:
+##  Model Architecture: The solution uses a Late Fusion architecture:
 
 ### 1. Visual Branch:
 ```
