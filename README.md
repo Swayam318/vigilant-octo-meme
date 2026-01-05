@@ -9,6 +9,7 @@ Standard real estate models often miss the "curb appeal" or neighborhood density
 
 ## 📂 Repository Structure
 
+```text
 ├── data_fetcher.py           # Script to download satellite images via API
 ├── preprocessing.ipynb       # Data cleaning, log-transformations, and scaling
 ├── model_training.ipynb      # Trains the CNN (ResNet18) to learn visual embeddings
