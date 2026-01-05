@@ -17,6 +17,7 @@ Standard real estate models often miss the "curb appeal" or neighborhood density
 ├── explainability.ipynb      # Grad-CAM visualization to interpret model focus
 ├── 22322030_final.csv        # Final predictions (Submission file)
 └── 22322030_report.pdf       # Detailed project report
+```
 
 ## 🛠️ Tech Stack
 Deep Learning: PyTorch, Torchvision (ResNet18)
