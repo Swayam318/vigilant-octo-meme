@@ -32,14 +32,13 @@ APIs: Google Maps Static API
 ## 🚀 How to Run the Pipeline
 Follow these steps in order to reproduce the results.
 
-1. Environment Setup
-Install the required dependencies:
+1. Environment Setup: Install the required dependencies:
 pip install pandas numpy torch torchvision scikit-learn xgboost opencv-python matplotlib tqdm requests
 
-2. Data Acquisition (Optional)
+2. Data Acquisition (Optional):
 If you do not have the images yet, use data_fetcher.py.
 Prerequisite: You need a valid Google Maps Static API Key.
-
+```
 (i) Set your API Key:
 Linux/Mac: export GOOGLE_MAPS_API_KEY="YOUR_API_KEY_HERE"
 Windows (CMD): set GOOGLE_MAPS_API_KEY="YOUR_API_KEY_HERE"
@@ -48,7 +47,7 @@ Windows (PowerShell): $env:GOOGLE_MAPS_API_KEY="YOUR_API_KEY_HERE"
 (ii) Run the Script:
 python data_fetcher.py
 Note: This script reads from data/train.csv and saves images to data/images/. Ensure your CSV files are in the expected folder or adjust the paths in the script.
-
+```
 3. Data Preparation: Run preprocessing.ipynb.
 Input: train.csv, test.csv
 Action: Performs log-transformations on skewed features (sqft_lot, price) and standard scaling. Maps image paths to IDs.
