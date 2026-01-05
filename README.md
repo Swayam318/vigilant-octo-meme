@@ -20,12 +20,14 @@ Standard real estate models often miss the "curb appeal" or neighborhood density
 ```
 
 ## 🛠️ Tech Stack
+```
 Deep Learning: PyTorch, Torchvision (ResNet18)
 Machine Learning: Scikit-Learn, XGBoost, HistGradientBoosting
 Data Manipulation: Pandas, NumPy
 Image Processing: PIL, OpenCV
 Visualization: Matplotlib, Seaborn
 APIs: Google Maps Static API
+```
 
 ## 🚀 How to Run the Pipeline
 Follow these steps in order to reproduce the results.
