@@ -10,13 +10,14 @@ Standard real estate models often miss the "curb appeal" or neighborhood density
 ## 📂 Repository Structure
 
 ```text
-├── data_fetcher.py           # Script to download satellite images via API
-├── preprocessing.ipynb       # Data cleaning, log-transformations, and scaling
-├── model_training.ipynb      # Trains the CNN (ResNet18) to learn visual embeddings
-├── hybrid_training.ipynb     # Baseline Model + The MAIN pipeline: Feature Extraction -> Clustering -> Ensemble
-├── explainability.ipynb      # Grad-CAM visualization to interpret model focus
-├── 22322030_final.csv        # Final predictions (Submission file)
-└── 22322030_report.pdf       # Detailed project report
+├── data_fetcher.py            # Script to download satellite images via API
+├── preprocessing.ipynb        # Data cleaning, log-transformations, and scaling
+├── model_training.ipynb       # Trains the CNN (ResNet18) to learn visual embeddings
+├── hybrid_training.ipynb      # Baseline Model + The MAIN pipeline: Feature Extraction -> Clustering -> Ensemble
+├── explainability.ipynb       # Grad-CAM visualization to interpret model focus
+├── combined_code_kaggle.ipynb # Combined code file including outputs of the code blocks executed. 
+├── 22322030_final.csv         # Final predictions (Submission file)
+└── 22322030_report.pdf        # Detailed project report
 ```
 
 ## 🛠️ Tech Stack
